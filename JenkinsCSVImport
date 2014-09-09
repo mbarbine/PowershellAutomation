@@ -1,0 +1,10 @@
+ $testcsv = import-csv .\WeeklyWorkload.csv
+ 
+  foreach($test in $testcsv)  {
+ 
+   $field1 = $test.field1
+   $field2 = $test.field2
+   Echo "$field1, $field2"
+  
+   }
+  $Field1
